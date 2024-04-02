@@ -1,0 +1,57 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rapa-deploy-blue
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      color: blue  # "1"
+  # 아래내용은 Pod 에 대한 구성내용
+  template:
+    metadata:
+      name: rapa-pod-blue
+      labels:
+        color: blue  # 반드시 "1" 과 동일해야 함
+    spec:
+      containers:
+        - name: rapa-ctn-blue
+          image: brian24/rapaeng4:blue
+          ports:
+            - containerPort: 80
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rapa-deploy-green
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      color: green  # "1"
+  # 아래내용은 Pod 에 대한 구성내용
+  template:
+    metadata:
+      name: rapa-pod-green
+      labels:
+        color: green  # 반드시 "1" 과 동일해야 함
+    spec:
+      containers:
+        - name: rapa-ctn-green
+          image: brian24/rapaeng4:green
+          ports:
+            - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-rapaeng-lb
+spec:
+  ports:
+  - name: web
+    port: 80  #LB와 연결할 포트
+    targetPort: 80
+ 
+  selector:
+    color: blue
+  type: LoadBalancer
