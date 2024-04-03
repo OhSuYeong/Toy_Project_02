@@ -2,9 +2,9 @@
 
 ## 인프라 구성 정리
 
-- Backend 링크
+- Backend 링크  
   [GitHub - walloonam/backKakao](https://github.com/walloonam/backKakao/tree/main)
-- Frontend 링크
+- Frontend 링크  
   [GitHub - YoonHakyoung/myReact: React 활용한 Ticketing Web](https://github.com/YoonHakyoung/myReact)
 
   [GitHub - YoonHakyoung/Anemone: Docker Toy Project 2](https://github.com/YoonHakyoung/Anemone)
@@ -1584,7 +1584,7 @@ spec:
 
 ## 5. Jenkins-Slack 연동
 
-실행화면
+실행화면  
 ![Untitled](https://github.com/OhSuYeong/Toy_Project_02/assets/101083171/13887cca-3242-48ad-a464-a5f47bf99888)
 - slackAPI.py
 
