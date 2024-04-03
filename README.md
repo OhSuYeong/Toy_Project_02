@@ -977,7 +977,7 @@ kubernetes      ClusterIP   10.96.0.1       <none>        443/TCP          9d
 ### MetricBeat Daemonset 배포
 
 <aside>
-💡 image 존재 확인
+💡 image 존재 확인  
 https://www.docker.elastic.co/r/kibana/kibana?limit=50&offset=100&show_snapshots=false
 
 </aside>
@@ -1530,7 +1530,7 @@ spec:
 - 지금 빌드
     
     ![Untitled](https://github.com/OhSuYeong/Toy_Project_02/assets/101083171/c17c3f50-9654-4146-9d9c-7100e26fec68)
-- 배포 확인 (master)
+- 배포 확인 (master)  
   ![Untitled](https://github.com/OhSuYeong/Toy_Project_02/assets/101083171/d7a84183-d7c9-46a7-999a-961bb79b0e7a)
   ![Untitled](https://github.com/OhSuYeong/Toy_Project_02/assets/101083171/4797f1e6-264c-4d7f-90e8-097be432ecb8)
 ### db 배포(db.yaml)
