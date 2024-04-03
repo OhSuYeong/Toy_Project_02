@@ -1,1 +1,1 @@
-![순서도](https://github.com/OhSuYeong/Toy_Project_02/assets/101083171/9e330849-7f8d-431c-9188-4d07a9ade7a0)
+![순서도수정](https://github.com/OhSuYeong/Toy_Project_02/assets/101083171/00ac3969-e9f8-4bfc-9b8c-4aa04b267a26)
